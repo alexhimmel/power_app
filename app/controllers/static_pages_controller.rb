@@ -16,4 +16,8 @@ class StaticPagesController < ApplicationController
 
   def vidos
   end
+  
+  def about
+  end
+  
 end
