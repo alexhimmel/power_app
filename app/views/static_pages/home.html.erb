@@ -1,9 +1,18 @@
-
-
-    <h1>Power WOW</hi>
-    <p>
-      This is the home page for the 
-      <a href="http://wow.blizzard.cn/">Power Guild</a>
-      blog.
-    </p>
+<%= link_to image_tag("logo.jpg", alt: "WOW logo"),
+            'http://wow.blizzard.cn/' %>
+<div class="center jumbotron">
   
+  <h1>Welcome to the Power App</h1>
+  
+  <h2>
+    This is the home page for the 
+    <a href="http://wow.blizzard.cn/">Power Guild</a>
+    blog.
+  </h2>
+  <%= link_to "点击注册！", signup_path, class: "btn btn-lg btn-primay" %>
+
+</div>
+
+
+
+   
